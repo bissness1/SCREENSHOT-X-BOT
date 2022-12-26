@@ -6,7 +6,7 @@ class Config:
     API_ID = int(os.environ.get('API_ID','6534707'))
     API_HASH = os.environ.get('API_HASH','4bcc61d959a9f403b2f20149cbbe627a')
     BOT_TOKEN = os.environ.get('BOT_TOKEN','5541380668:AAGH9yGr_4leFAgG35raDvAi1Q82ynMJGG0')
-    SESSION_NAME = os.environ.get('SESSION_NAME', ':memory:')
+    SESSION_NAME = os.environ.get('SESSION_NAME', 'tttip6bot')
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL','-1001843564893'))
     DATABASE_URL = os.environ.get('DATABASE_URL','mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority')
     AUTH_USERS = [int(i) for i in os.environ.get('AUTH_USERS', '1430593323').split(' ')]
